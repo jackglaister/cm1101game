@@ -52,7 +52,7 @@ room_office = {
 
     "exits": {"west": "Parking"},
 
-    "items": [item_pen]
+    "items": [item_pen],
     "options": ["Give help","Leave him"]
 }
 
