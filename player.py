@@ -1,10 +1,10 @@
 from items import *
 from map import rooms
 
-inventory = [item_id, item_laptop, item_money]
-mass = items['laptop']['mass'] + items['id']['mass'] + items['money']['mass']
+inventory = []
+mass = 0
 max_weight = 7
 karma = 0
-# Start game at the reception
-current_room = rooms["Reception"]
+# Start game at the hall
+current_room = rooms["Hall"]
 mass = 2

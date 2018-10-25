@@ -1,5 +1,5 @@
 item_KnightSeal = {
-    "id": "Seal",
+    "id": "seal",
 
     "name": "A knights seal",
 
@@ -9,7 +9,7 @@ item_KnightSeal = {
 }
 
 item_DirtyClothes = {
-    "id": "Clothes",
+    "id": "clothes",
 
     "name": "Dirty Clothes",
 
@@ -19,7 +19,7 @@ item_DirtyClothes = {
 }
 
 item_KingsFood = {
-    "id": "Food",
+    "id": "food",
 
     "name": "Kings Meal",
 
@@ -29,7 +29,7 @@ item_KingsFood = {
 }
 
 item_ToDoList = {
-    "id": "List",
+    "id": "list",
 
     "name": "a to do list",
 
@@ -39,9 +39,9 @@ item_ToDoList = {
 }
 
 item_CleanSheets = {
-    "id": "CleanSheets",
+    "id": "sheets",
 
-    "name": "Clean sheets for the royal bed chambers",
+    "name": "Clean sheets",
 
     "description": "You should probably take these to the bedroom to change.",
 
@@ -49,11 +49,10 @@ item_CleanSheets = {
 }
 
 items = {
-    "id": item_id,
-    "Seal": item_KnightSeal,
-    "Clothes": item_DirtyClothes,
-    "Food": item_KingsFood,
-    "List": item_ToDoList,
-    "CleanSheets": item_CleanSheets,
+    "seal": item_KnightSeal,
+    "clothes": item_DirtyClothes,
+    "food": item_KingsFood,
+    "list": item_ToDoList,
+    "sheets": item_CleanSheets,
 }
 
