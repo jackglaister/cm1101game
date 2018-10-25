@@ -1,73 +1,72 @@
-item_id = {
-    "id": "id",
+item_caviar = {
+    "id": "caviar",
 
-    "name": "id card",
+    "name": "Caviar",
 
     "description":
-    """You new shiny student ID card. Expires 1 June 2017.
-You wonder why they have printed a suicide hotline number on it?...""",
+    """Its such an rare food. Wonder how much gold if i seel it""",
 
     "mass": 0.1,
 }
 
-item_laptop = {
-    "id": "laptop",
+item_oyster = {
+    "id": "oyster",
 
-    "name": "laptop",
+    "name": "oyster",
 
     "description":
-    "It has seen better days. At least it has a WiFi card!",
+    "Such a delicate food, I wonder who doesn't like oyster these days",
 
     'mass': 3,
 }
 
-item_money = {
-    "id": "money",
+item_bread = {
+    "id": "bread",
 
-    "name": "money",
+    "name": "bread",
 
     "description":
-    "This wad of cash is barely enough to pay your tuition fees.",
+    "hmm.. just a basic food to survive the days.",
 
     'mass': 0.2,
 }
 
-item_biscuits = {
-    "id": "biscuits",
+item_banana = {
+    "id": "banana",
 
-    "name": "a pack of biscuits",
+    "name": "banana",
 
-    "description": "A pack of biscuits.",
+    "description": "Fruit, that jack eats every week",
 
     'mass': 0.7
 }
 
-item_pen = {
-    "id": "pen",
+item_water = {
+    "id": "water",
 
-    "name": "a pen",
+    "name": "water",
 
-    "description": "A basic ballpoint pen.",
+    "description": "a liquid that is essential to our life",
 
     'mass': 0.1
 }
 
-item_handbook = {
-    "id": "handbook",
+item_beer = {
+    "id": "beer",
 
-    "name": "a student handbook",
+    "name": "beer",
 
-    "description": "This student handbook explains everything. Seriously.",
+    "description": "drinking this in a small ammount will get conversation going!",
 
     'mass': 1.0
 }
 
 items = {
-    "id": item_id,
-    "laptop": item_laptop,
-    "money": item_money,
-    "biscuits": item_biscuits,
-    "pen": item_pen,
-    "handbook": item_handbook,
+    "caviar": item_caviar,
+    "oyster": item_oyster,
+    "bread": item_bread,
+    "banana": item_banana,
+    "water": item_water,
+    "beer": item_beer,
 }
 
