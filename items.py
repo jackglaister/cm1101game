@@ -1,72 +1,59 @@
-item_caviar = {
-    "id": "caviar",
+item_KnightSeal = {
+    "id": "Seal",
 
-    "name": "Caviar",
+    "name": "A knights seal",
 
-    "description":
-    """Its such an rare food. Wonder how much gold if i seel it""",
+    "description": "You must bring this to the king!",
 
-    "mass": 0.1,
+    'mass': 1,
 }
 
-item_oyster = {
-    "id": "oyster",
+item_DirtyClothes = {
+    "id": "Clothes",
 
-    "name": "oyster",
+    "name": "Dirty Clothes",
 
-    "description":
-    "Such a delicate food, I wonder who doesn't like oyster these days",
-
-    'mass': 3,
-}
-
-item_bread = {
-    "id": "bread",
-
-    "name": "bread",
-
-    "description":
-    "hmm.. just a basic food to survive the days.",
+    "description": "These clothes are dirty and need a good scrub.",
 
     'mass': 0.2,
 }
 
-item_banana = {
-    "id": "banana",
+item_KingsFood = {
+    "id": "Food",
 
-    "name": "banana",
+    "name": "Kings Meal",
 
-    "description": "Fruit, that jack eats every week",
+    "description": "A meal fit for a King.",
 
     'mass': 0.7
 }
 
-item_water = {
-    "id": "water",
+item_ToDoList = {
+    "id": "List",
 
-    "name": "water",
+    "name": "a to do list",
 
-    "description": "a liquid that is essential to our life",
+    "description": "You must change the bed sheets in the bedroom, take dirty clothes to the kitchen and take food to the king.",
 
     'mass': 0.1
 }
 
-item_beer = {
-    "id": "beer",
+item_CleanSheets = {
+    "id": "CleanSheets",
 
-    "name": "beer",
+    "name": "Clean sheets for the royal bed chambers",
 
-    "description": "drinking this in a small ammount will get conversation going!",
+    "description": "You should probably take these to the bedroom to change.",
 
     'mass': 1.0
 }
 
 items = {
-    "caviar": item_caviar,
-    "oyster": item_oyster,
-    "bread": item_bread,
-    "banana": item_banana,
-    "water": item_water,
-    "beer": item_beer,
+    "id": item_id,
+    "Seal": item_KnightSeal,
+    "Clothes": item_DirtyClothes,
+    "Food": item_KingsFood,
+    "List": item_ToDoList,
+    "CleanSheets": item_CleanSheets,
 }
 
