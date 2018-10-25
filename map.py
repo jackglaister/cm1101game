@@ -35,7 +35,7 @@ room_tutor = {
 }
 
 room_parking = {
-    "name": "castle basement"
+    "name": "castle basement",
 
     "description":
     """You are in the castle basement, there is a puzzle to solve before you can escape""",
@@ -52,7 +52,7 @@ room_office = {
 
     "exits": {"west": "Parking"},
 
-    "items": [item_pen]
+    "items": [item_pen],
     "options": ["Give help","Leave him"]
 }
 
