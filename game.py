@@ -138,13 +138,19 @@ def print_room(room):
     print()
     # Display the room items
     print_room_items(room)    
-    while True:
-        for item in room["options"}
-            print("You can: "+item]
-        input = option()
-        for loop in range(0,len(room["options"])):
-            if option == help or option == feed:
+    if len(room["options"]) > 0:
+        while True:
+            for item in room["options"]:
+                print("You can: "+item)
+            option = input()
+            if option.split(" ")[0].lower() == "help" or option.split(" ")[0].lower() == "feed":
                 karma += 10
+                break
+            elif option.split(" ")[0].lower() == "ignore":
+                break
+            elif option.split(" ")[0].lower() == "attack":
+                karma -= 10
+                break
 
 def exit_leads_to(exits, direction):
     """This function takes a dictionary of exits and a direction (a particular
