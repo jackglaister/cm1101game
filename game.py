@@ -127,6 +127,7 @@ def print_room(room):
 
     Note: <BLANKLINE> here means that doctest should expect a blank line.
     """
+    global karma
     # Display room name
     print()
     print(room["name"].upper())
@@ -135,10 +136,15 @@ def print_room(room):
     # Display room description
     print(room["description"])
     print()
-
     # Display the room items
-    print_room_items(room)
-
+    print_room_items(room)    
+    while True:
+        for item in room["options"}
+            print("You can: "+item]
+        input = option()
+        for loop in range(0,len(room["options"])):
+            if option == help or option == feed:
+                karma += 10
 
 def exit_leads_to(exits, direction):
     """This function takes a dictionary of exits and a direction (a particular
@@ -169,7 +175,6 @@ def print_exit(direction, leads_to):
     GO SOUTH to MJ and Simon's room.
     """
     print("GO " + direction.upper() + " to " + leads_to + ".")
-
 
 def print_menu(exits, room_items, inv_items):
     """This function displays the menu of available actions to the player. The
@@ -210,8 +215,7 @@ def print_menu(exits, room_items, inv_items):
     for item in inv_items:
         print("DROP " + item["id"].upper() + " to drop your " + item["name"] +". ")
         print()
-    print("You are carrying this much: " + str(round(mass, 2)) + "kg")
-    
+    print("You are carrying this much: " + str(round(mass, 2)) + "kg")    
     print("What do you want to do?")
 
 
