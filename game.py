@@ -151,6 +151,12 @@ def print_room(room):
             elif option.split(" ")[0].lower() == "attack":
                 karma -= 10
                 break
+            valid = False
+            for item in room["options"]:
+                if item.split(" ")[0].lower() == option.split(" ")[0].lower():
+                    valid = True
+            if valid:
+                break
 
 def exit_leads_to(exits, direction):
     """This function takes a dictionary of exits and a direction (a particular
