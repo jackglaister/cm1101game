@@ -1,65 +1,62 @@
 from items import *
 
-room_reception = {
-    "name": "Dark Road",
+room_hall = {
+    "name": "Common Halls",
     "description":
-    """An old homeless lady is sat on the edge of a path with a sword. She tells you it is very valuable and was passed down from a long line of ancestors. She is offering it for sale for 100 gold. Do you take it?""",
+    """Another normal day in the Castle of Orleasia, time to get to work""",
 
-    "exits": {"south": "Admins", "east": "Tutor", "west": "Parking"},
+    "exits": {"south": "Kitchen", "east": "Bedroom", "west": "Throne"},
 
-    "items": [item_biscuits, item_handbook],
-    "options": ["Attack her","Buy the sword","Ignore her"]
+    "items": [item_CleanSheets, item_ToDoList]
 }
 
-room_admins = {
-    "name": "The Highway",
+room_kitchen = {
+    "name": "The Kitchen",
     "description":
-    """An old man is trying to cross a 4 lane wide highway ahead of you. """,
+    """Food is prepared here. Cooked by the finest chefs the country has to offer, for The King.""",
 
-    "exits":  {"north": "Reception"},
+    "exits":  {"north": "Hall"},
 
-    "items": [],
-    "options": ["help him","ignore him"]
+    "items": [item_KingsFood]
 }
 
-room_tutor = {
-    "name": "Thief's Lair",
+room_bedroom = {
+    "name": "Royal Bedchambers",
     
     "description":
-    """A thief has approached you and is demanding everything you have. He seems a worthy enemy, you are sure you can take him on.""",
+    """Your majesty the King sleeps here. Sadly there is no Queen in these trying times, he just occupies himself with the local women, but thats a secret from the public.""",
 
-    "exits": {"west": "Reception"},
+    "exits": {"west": "Hall"},
 
-    "items": [],
-    "options": ["Run away","Attack him"]
+    "items": [item_DirtyClothes]
 }
 
-room_parking = {
-    "name": "castle basement",
+room_throne = {
+    "name": "Throne Room",
 
     "description":
-    """You are in the castle basement, there is a puzzle to solve before you can escape""",
+    """The king sits here all day talking with nobles and kinghts from all around the 4 seas.""",
 
-    "exits": {"east": "Office", "south": "Reception"},
+    "exits": {"east": "Barracks", "south": "Hall"},
 
     "items": []
 }
 
-room_office = {
-    "name": "Tired Traveller",
+room_barracks = {
+    "name": "Soldiers Barracks",
     "description":
-    """A wary traveller crosses your path, looking exhausted. Do you give him directions or laugh at him as you walk past? """,
+    """The barracks, as stinky as it always is with all the knights and scribes running around.\nA knight waves you asking about the Kings reply on what to do about a neighbouring kingdom.""",
 
-    "exits": {"west": "Parking"},
+    "exits": {"west": "Throne"},
 
-    "items": [item_pen],
-    "options": ["Give help","Leave him"]
+    "items": [item_KnightSeal]
 }
 
 rooms = {
-    "Reception": room_reception,
-    "Admins": room_admins,
-    "Tutor": room_tutor,
-    "Parking": room_parking,
-    "Office": room_office
+    "Hall": room_hall,    #was reception
+    "Kitchen": room_kitchen,    #was admin
+    "Bedroom": room_bedroom,       #was tutor
+    "Throne": room_throne,    #was parking
+    "Barracks": room_barracks    #was office
+    
 }
